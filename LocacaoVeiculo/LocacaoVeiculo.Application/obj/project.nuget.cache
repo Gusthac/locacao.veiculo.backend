@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "R5LlgMCP83Hwyr17zkSmpU/+sv+s6OroQOXOSr1zOSJLnhG5NpiVL1wAfBaWJ/6MB02Cbf/pZk4gr4+fHHvrqA==",
+  "success": true,
+  "projectFilePath": "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.Application\\LocacaoVeiculo.Application.csproj",
+  "expectedPackageFiles": [
+    "D:\\USERS\\Administrador\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "D:\\USERS\\Administrador\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.5\\microsoft.aspnetcore.authentication.jwtbearer.5.0.5.nupkg.sha512",
+    "D:\\USERS\\Administrador\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "D:\\USERS\\Administrador\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.7.1\\microsoft.identitymodel.jsonwebtokens.6.7.1.nupkg.sha512",
+    "D:\\USERS\\Administrador\\.nuget\\packages\\microsoft.identitymodel.logging\\6.7.1\\microsoft.identitymodel.logging.6.7.1.nupkg.sha512",
+    "D:\\USERS\\Administrador\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.7.1\\microsoft.identitymodel.protocols.6.7.1.nupkg.sha512",
+    "D:\\USERS\\Administrador\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.7.1\\microsoft.identitymodel.protocols.openidconnect.6.7.1.nupkg.sha512",
+    "D:\\USERS\\Administrador\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.7.1\\microsoft.identitymodel.tokens.6.7.1.nupkg.sha512",
+    "D:\\USERS\\Administrador\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.7.1\\system.identitymodel.tokens.jwt.6.7.1.nupkg.sha512",
+    "D:\\USERS\\Administrador\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "D:\\USERS\\Administrador\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,345 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.API\\LocacaoVeiculo.API.csproj": {}
+  },
+  "projects": {
+    "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.API\\LocacaoVeiculo.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.API\\LocacaoVeiculo.API.csproj",
+        "projectName": "LocacaoVeiculo.API",
+        "projectPath": "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.API\\LocacaoVeiculo.API.csproj",
+        "packagesPath": "D:\\USERS\\Administrador\\.nuget\\packages\\",
+        "outputPath": "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\USERS\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.CrossCutting\\LocacaoVeiculo.CrossCutting.csproj": {
+                "projectPath": "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.CrossCutting\\LocacaoVeiculo.CrossCutting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.Application\\LocacaoVeiculo.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.Application\\LocacaoVeiculo.Application.csproj",
+        "projectName": "LocacaoVeiculo.Application",
+        "projectPath": "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.Application\\LocacaoVeiculo.Application.csproj",
+        "packagesPath": "D:\\USERS\\Administrador\\.nuget\\packages\\",
+        "outputPath": "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\USERS\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.Domain\\LocacaoVeiculo.Domain.csproj": {
+                "projectPath": "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.Domain\\LocacaoVeiculo.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.CrossCutting\\LocacaoVeiculo.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.CrossCutting\\LocacaoVeiculo.CrossCutting.csproj",
+        "projectName": "LocacaoVeiculo.CrossCutting",
+        "projectPath": "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.CrossCutting\\LocacaoVeiculo.CrossCutting.csproj",
+        "packagesPath": "D:\\USERS\\Administrador\\.nuget\\packages\\",
+        "outputPath": "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\USERS\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.Application\\LocacaoVeiculo.Application.csproj": {
+                "projectPath": "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.Application\\LocacaoVeiculo.Application.csproj"
+              },
+              "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.Domain\\LocacaoVeiculo.Domain.csproj": {
+                "projectPath": "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.Domain\\LocacaoVeiculo.Domain.csproj"
+              },
+              "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.Infrastructure\\LocacaoVeiculo.Infrastructure.csproj": {
+                "projectPath": "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.Infrastructure\\LocacaoVeiculo.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.Domain\\LocacaoVeiculo.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.Domain\\LocacaoVeiculo.Domain.csproj",
+        "projectName": "LocacaoVeiculo.Domain",
+        "projectPath": "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.Domain\\LocacaoVeiculo.Domain.csproj",
+        "packagesPath": "D:\\USERS\\Administrador\\.nuget\\packages\\",
+        "outputPath": "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\USERS\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.Infrastructure\\LocacaoVeiculo.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.Infrastructure\\LocacaoVeiculo.Infrastructure.csproj",
+        "projectName": "LocacaoVeiculo.Infrastructure",
+        "projectPath": "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.Infrastructure\\LocacaoVeiculo.Infrastructure.csproj",
+        "packagesPath": "D:\\USERS\\Administrador\\.nuget\\packages\\",
+        "outputPath": "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\USERS\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.Domain\\LocacaoVeiculo.Domain.csproj": {
+                "projectPath": "D:\\info\\links\\emprego\\BACKEND_LOCALIZA_TESTE_Unit_test\\LocacaoVeiculo\\LocacaoVeiculo.Domain\\LocacaoVeiculo.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
